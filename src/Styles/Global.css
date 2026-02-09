@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+:root{
+    --primary-color: #e50914;
+    --secondary-color: #221f1f;
+    --text-color: #ffffff;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+

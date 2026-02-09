@@ -1,0 +1,104 @@
+.banner {
+      background-image: url("./assets/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* main hero banner css*/
+
+.banner-content {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.banner-content .headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  :nth-child(1) {
+    font-size: 56px;
+    font-weight: 700;
+  }
+
+  :nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  :nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.email-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+  width: 100%;
+
+  input {
+    width: 300px;
+    padding: 15px 10px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--text-color);
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+}
+
+.banner-content button {
+  width: 150px;
+  padding: 15px;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
