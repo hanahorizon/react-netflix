@@ -9,6 +9,8 @@ import "./slider.css";
 
 const Slider = ({ data }) => {
   return (
+<>
+    <div className="slider-title container">Trending movies</div>
     <Swiper
       modules={[Navigation]}
       navigation
@@ -22,6 +24,7 @@ const Slider = ({ data }) => {
         </SwiperSlide>
       ))}
     </Swiper>
+    </>
   );
 };
 

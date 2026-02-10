@@ -19,6 +19,20 @@ const CardData = [
     url: './../assets/movie5.webp',
     title: 'Jolly LLB 3'
   },
+
+  {
+    url: './assets/movie6.webp',
+    title: 'Stranger things'
+  },
+  {
+    url: './assets/movie7.webp',
+    title: 'The kapil show'
+  },
+  {
+    url: './assets/movie8.webp',
+    title: 'Tere ishk me'
+
+    },
   {
     url: './assets/movie9.webp',
     title: 'Taskaree'
