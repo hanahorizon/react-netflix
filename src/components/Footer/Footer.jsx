@@ -35,6 +35,13 @@ const Footer = () => {
             <li><a href="#">Speed Test</a></li>
             <li><a href="#">Legal Notices</a></li>
             <li><a href="#">Only on Netflix</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Legal Notices</a></li>
+            <li><a href="#">Contact Us</a></li>
           </ul>
         </div>
 
@@ -43,6 +50,11 @@ const Footer = () => {
           <option value="English" >English</option>
           <option value="hindi" >Hindi</option></select>
         </button>
+        </div>
+
+        <div className="copyright">
+          <p>Netflix India</p>
+          <span>This page is protected by Google reCAPTCHA to ensure you're not a bot.</span>
         </div>
       </div>
     </footer>

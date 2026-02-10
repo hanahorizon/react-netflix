@@ -1,27 +1,28 @@
 const CardData = [
   {
-    title: "Customer Experience",
-    description:
-      "Enhance customer satisfaction and loyalty through personalized experiences.",
+    url: './assets/movie1.webp',
+    title: 'Dhurandar'
   },
-
   {
-    title: "Training Programs",
-    description:
-      "Develop and deliver training programs to enhance employee skills and knowledge.",
+    url: './assets/movie2.webp',
+    title: 'Haq '
   },
-
   {
-    title: "Business Strategy",
-    description:
-      "Formulate effective business strategies to drive growth and profitability.",
+    url: './assets/movie3.webp',
+    title: 'De De pyar de'
   },
-
   {
-    title: "ESG Consulting",
-    description:
-      "Provide consulting services to help businesses improve their environmental, social, and governance practices.",
+    url: './assets/movie4.webp',
+    title: 'Akhanda'
   },
+  {
+    url: './../assets/movie5.webp',
+    title: 'Jolly LLB 3'
+  },
+  {
+    url: './assets/movie9.webp',
+    title: 'Taskaree'
+  }
 ];
 
 export default CardData;

@@ -8,6 +8,7 @@ body{
     background-color: #141414;
     color: white;
     font-family: 'Arial', sans-serif;
+    
 }
 
 :root{
@@ -17,7 +18,7 @@ body{
 }
 
 .container{
-    width: 1200px;
-    margin: auto;
+      max-width: 1200px;
+  margin: auto;
 }
 

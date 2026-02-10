@@ -1,16 +1,13 @@
-import React from "react";
-import styles from "../Cards/Card";
+import React from 'react'
+import './Card.css'
 
-const Card = ({title, description}) => {
-
+const Card = ({url, title}) => {
   return (
-    <div className={styles.card}>
-      <div className={styles.icons}>icon</div>
-      <h4>{title}</h4>
-      <p>{description}</p>
-      <span>Read More</span>
-    </div>
+    <div className= "Card">
+      <img src = {url} className= "movie-img"/>
+      <h3> {title}</h3>
+      </div>
   );
 };
 
-export default Card;
+export default Card

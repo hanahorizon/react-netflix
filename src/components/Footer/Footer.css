@@ -1,7 +1,5 @@
 
-footer{
-    background-color: #313131;
-}
+
 
 .footer{
     
@@ -9,10 +7,9 @@ footer{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 30%;
-
+    gap: 2rem;
     padding: 20px;
-    min-height: 500px;
+min-height: 500px;
 }
 
 .contact{
@@ -27,15 +24,15 @@ footer{
 
 .contact p a{
     text-decoration: none;
-    color: #fff;
+    color: #B3B3B3;
 }
 
 .footer-links{
+    
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 10%;
-    margin-bottom: 20px;
+    gap: 3rem;
     padding: 20px 8px ;
 }
 
@@ -55,8 +52,8 @@ footer{
 
 .footer-links ul li a{
     text-decoration: none;
-    font-size: 16px;
-    color: #fff;
+    font-size: 14px;
+    color: #B3B3B3;
     
 }
 
@@ -69,6 +66,8 @@ footer{
     padding: 8px 10px;
      border-radius: 3px;
      cursor: pointer;
+       border: none;
+
   }
  .lang-btn> option{
     background-color: #fff;
@@ -76,4 +75,23 @@ footer{
    
   }
 
+
+  .copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .copyright p{
+    font-size: 14px;
+    color: #B3B3B3;
+  }
+
+
+  .copyright span{
+    font-size: 13px;
+    color: #B3B3B3;
+  }
 
